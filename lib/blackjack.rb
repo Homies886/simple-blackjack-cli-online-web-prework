@@ -54,7 +54,8 @@ def runner
   welcome
   initial_round
   prompt_user
-  unti card_total > 21
+  until card_total > 21
+    hit?
   
 end
     
