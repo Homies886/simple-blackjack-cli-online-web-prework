@@ -54,6 +54,7 @@ def runner
   welcome
   initial_round
   prompt_user
-  hit?
+  unti card_total > 21
+  
 end
     
